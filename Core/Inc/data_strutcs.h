@@ -1,3 +1,4 @@
+/* USER CODE BEGIN Includes */
 /*
  * data_strutcs.h
  *
@@ -5,7 +6,7 @@
  *      Author: Caustic_Zinc
  */
 
-/* USER CODE BEGIN Includes */
+
 #ifndef INC_DATA_STRUTCS_H_
 #define INC_DATA_STRUTCS_H_
 
@@ -24,6 +25,8 @@ typedef struct {
 	uint16_t cmd; //Command code. Side boards will act depending on it.
 	int16_t speedR;                    //  output speed: 0-1000
 	int16_t speedL;                    //  output speed: 0-1000
+	int32_t posL;                    //  output location: 0-1000
+		int32_t posR;                    //  output location: 0-1000
 	int16_t batt1;          //  for battery voltage calibration
 	int16_t batteryVoltage; //  for verifying battery voltage calibration
 	int16_t board_temp_adc_filtered;   //  for board temperature calibration
