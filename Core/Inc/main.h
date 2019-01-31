@@ -86,6 +86,14 @@ void Error_Handler(void);
 #define RolerBar_GPIO_Port GPIOA
 #define Shell_Pin GPIO_PIN_5
 #define Shell_GPIO_Port GPIOA
+#define FrontBoard_PowerPin_Pin GPIO_PIN_6
+#define FrontBoard_PowerPin_GPIO_Port GPIOA
+#define MiddleBoard_PowerPin_Pin GPIO_PIN_7
+#define MiddleBoard_PowerPin_GPIO_Port GPIOA
+#define BackBoard_PowerPin_Pin GPIO_PIN_0
+#define BackBoard_PowerPin_GPIO_Port GPIOB
+#define VESC_PowerPin_Pin GPIO_PIN_1
+#define VESC_PowerPin_GPIO_Port GPIOB
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14

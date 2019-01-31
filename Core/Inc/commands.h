@@ -5,7 +5,7 @@
  *  Created on: Jan 22, 2019
  *      Author: Caustic_Zinc
  */
-
+#pragma once
 #ifndef INC_COMMANDS_H_
 #define INC_COMMANDS_H_
 
